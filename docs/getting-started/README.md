@@ -8,6 +8,7 @@ This section follows the TapMind learning journey. Pages are ordered so you buil
 
 [How Mobile Ads Work](./how-mobile-ads-work.md)
 → [Key AdTech Concepts](./key-adtech-concepts.md)
+→ [What is Mediation?](./what-is-mediation.md)
 → [Where TapMind Fits In](./where-tapmind-fits-in.md)
 → [What is TapMind](./what-is-tapmind.md)
 → [Custom Adapter vs OrchSDK](./custom-adapter-vs-orchsdk.md)
@@ -28,6 +29,7 @@ No prior AdTech knowledge is required. Each page introduces concepts only when t
 |------|---------------------|
 | [How Mobile Ads Work](./how-mobile-ads-work.md) | How ads appear in mobile apps, told through a Cricbuzz example |
 | [Key AdTech Concepts](./key-adtech-concepts.md) | User, Publisher, Advertiser, and Demand Partner explained with examples |
+| [What is Mediation?](./what-is-mediation.md) | Why publishers need mediation when working with multiple ad sources |
 | [Where TapMind Fits In](./where-tapmind-fits-in.md) | TapMind's role in the advertising ecosystem |
 | [What is TapMind](./what-is-tapmind.md) | A complete platform introduction |
 | [Custom Adapter vs OrchSDK](./custom-adapter-vs-orchsdk.md) | How the two integration paths compare and when to use each |
@@ -36,11 +38,11 @@ No prior AdTech knowledge is required. Each page introduces concepts only when t
 
 **New user (full learning journey)**
 
-[How Mobile Ads Work](./how-mobile-ads-work.md) → [Key AdTech Concepts](./key-adtech-concepts.md) → [Where TapMind Fits In](./where-tapmind-fits-in.md) → [What is TapMind](./what-is-tapmind.md) → [High Level Architecture](../architecture/high-level-architecture.md)
+[How Mobile Ads Work](./how-mobile-ads-work.md) → [Key AdTech Concepts](./key-adtech-concepts.md) → [What is Mediation?](./what-is-mediation.md) → [Where TapMind Fits In](./where-tapmind-fits-in.md) → [What is TapMind](./what-is-tapmind.md) → [High Level Architecture](../architecture/high-level-architecture.md)
 
 **Developer**
 
-[How Mobile Ads Work](./how-mobile-ads-work.md) → [What is TapMind](./what-is-tapmind.md) → [End-to-End Ad Journey](../ad-serving/end-to-end-ad-journey.md) → [SDK Flow](../ad-serving/sdk-flow.md)
+[How Mobile Ads Work](./how-mobile-ads-work.md) → [Key AdTech Concepts](./key-adtech-concepts.md) → [What is Mediation?](./what-is-mediation.md) → [What is TapMind](./what-is-tapmind.md) → [End-to-End Ad Journey](../ad-serving/end-to-end-ad-journey.md) → [SDK Flow](../ad-serving/sdk-flow.md)
 
 **Operations**
 

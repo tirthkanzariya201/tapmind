@@ -43,6 +43,7 @@ flowchart LR
 
 ## Related Pages
 
+- [What is Mediation?](./what-is-mediation.md)
 - [Key AdTech Concepts](./key-adtech-concepts.md)
 - [What is TapMind](./what-is-tapmind.md)
 - [Custom Adapter vs OrchSDK](./custom-adapter-vs-orchsdk.md)

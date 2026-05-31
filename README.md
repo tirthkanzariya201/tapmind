@@ -21,8 +21,8 @@ Whether you are a product manager, client stakeholder, support team member, or d
 New to TapMind? Follow the learning journey in order:
 
 1. [How Mobile Ads Work](./docs/getting-started/how-mobile-ads-work.md): How ads appear in mobile apps
-2. [Key AdTech Concepts](./docs/getting-started/key-adtech-concepts.md): Essential terminology, introduced progressively
-3. [Where TapMind Fits In](./docs/getting-started/where-tapmind-fits-in.md): TapMind's role in the ecosystem
+2. [Key AdTech Concepts](./docs/getting-started/key-adtech-concepts.md): User, Publisher, Advertiser, and Demand Partner
+3. [What is Mediation?](./docs/getting-started/what-is-mediation.md): Why publishers need mediation across multiple ad sources
 
 ---
 
@@ -30,7 +30,7 @@ New to TapMind? Follow the learning journey in order:
 
 ### Getting Started
 
-Your entry point. Follow the learning journey from how mobile ads work through AdTech concepts, TapMind's role, and integration options.
+Your entry point. Follow the learning journey from how mobile ads work through AdTech concepts, mediation, TapMind's role, and integration options.
 
 [Go to Getting Started →](./docs/getting-started/README.md)
 

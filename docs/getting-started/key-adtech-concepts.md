@@ -122,8 +122,8 @@ You now know the four core participants and how they fit together.
 
 ## Next Step
 
-You understand who is involved in mobile advertising and where advertisements originate. The natural next question is: **where does a platform like TapMind fit into this picture?**
+You understand who is involved in mobile advertising and where advertisements originate. The natural next question is: **what happens when a publisher works with more than one demand partner?**
 
-Publishers rarely manage all of these connections manually. Tools and platforms exist to coordinate ad requests, partner relationships, and configuration. Before diving into platform details, it helps to see exactly where TapMind sits in the ecosystem you just learned.
+A single ad request could be filled by multiple possible sources. Publishers need a way to manage those sources, decide which one gets a chance to serve, and maximize revenue and fill rate.
 
-Continue to **[Where TapMind Fits In](./where-tapmind-fits-in.md)** to see how TapMind connects publishers, demand partners, and the ad serving process.
+Continue to **[What is Mediation?](./what-is-mediation.md)** to learn why mediation exists and how it helps publishers work with multiple ad sources.
