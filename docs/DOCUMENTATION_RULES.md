@@ -1,50 +1,49 @@
 # TapMind Documentation Rules
 
-This document defines the standards for writing and maintaining the TapMind GitBook knowledge base.
+This document defines the standards for writing and maintaining the TapMind product knowledge base.
 
 ---
 
-## Audience
+## Primary Audience
 
-Documentation must be useful for:
+Documentation must serve, in order of emphasis:
 
-- **Developers** — Implementation details, integration guides, and system behavior
-- **Project Managers** — Timelines, dependencies, and cross-team coordination context
-- **Product Managers** — Feature purpose, user impact, and business outcomes
-- **Clients** — Plain-language explanations of what TapMind does and why it matters
+1. **Product Managers** — Feature purpose, user impact, and business outcomes
+2. **Project Managers** — Timelines, dependencies, and cross-team coordination
+3. **Client Stakeholders** — Plain-language explanations of what TapMind delivers
+4. **Support Teams** — Troubleshooting, operations, and client-facing answers
+5. **Developers** — Integration guides and implementation details (after business context)
 
-Write so that any audience can understand the *what* and *why*; add technical depth where developers need it.
+Write so any reader understands *what* TapMind does and *why* it matters before encountering technical depth.
 
 ---
 
-## Documentation Principles
+## Documentation Philosophy
 
-### Language and clarity
+This knowledge base must explain:
 
-- Use simple language.
-- Explain technical concepts in plain English.
-- Explain Redis, RabbitMQ, MongoDB, and other technical components using real-world analogies.
-- Focus on business logic before implementation details.
+1. **What** the system does
+2. **Why** it exists
+3. **What business problem** it solves
+4. **How** it works at a high level
+5. **Technical implementation** — only after business understanding is established
 
-### Required coverage for every feature
+Business understanding is always more important than implementation details.
 
-Every feature or component must explain:
+Documentation should read like **Stripe**, **AWS**, or **Twilio** product documentation — not internal engineering notes.
 
-- **What it is**
-- **Why it exists**
-- **How it works**
-- **Business benefit**
+---
 
-### Diagrams
+## Terminology Rules
 
-- Use Mermaid diagrams whenever a process or flow is described.
-- Keep diagrams focused on one flow or concept per diagram.
+Whenever a technical concept is introduced, explain in this order:
 
-### Modularity
+1. **What it is** — Plain English first
+2. **Why we use it** — Purpose in the TapMind context
+3. **Business benefit** — Value to clients and stakeholders
+4. **Technical implementation** — How it works under the hood
 
-- Keep documentation modular so individual sections can be updated independently.
-- Avoid duplicating content across pages; link to related pages instead.
-- One topic per page where possible.
+Apply this pattern to Redis, RabbitMQ, MongoDB, PostgreSQL, and all infrastructure components.
 
 ---
 
@@ -52,39 +51,46 @@ Every feature or component must explain:
 
 Every documentation page must include these sections in order:
 
-1. **Overview** — What this topic covers at a glance
-2. **Why It Exists** — Problem it solves and rationale
-3. **How It Works** — Process, flow, or architecture (include Mermaid where applicable)
-4. **Business Benefit** — Value to users, clients, or the business
-5. **Failure Scenarios** — What can go wrong and how it is handled or detected
-6. **Related Components** — Links or references to other pages and systems
+1. **Overview** — What this page covers at a glance
+2. **Why It Exists** — Rationale and context
+3. **Business Problem** — The problem this topic addresses
+4. **High Level Explanation** — Plain-language process or concept (use Mermaid for flows)
+5. **Technical Details** — Implementation specifics (after business context)
+6. **Business Benefit** — Value delivered to clients and the business
+7. **Related Pages** — Links to related documentation
+
+Use [PAGE_TEMPLATE.md](./PAGE_TEMPLATE.md) when creating new pages.
 
 ---
 
-## Technical Analogies (Reference)
+## Diagrams
 
-When introducing infrastructure components, use analogies such as:
-
-| Component | Analogy guidance |
-|-----------|------------------|
-| **Redis** | Fast in-memory cache or short-term memory — quick lookups, temporary storage |
-| **RabbitMQ** | Post office or message queue — delivers tasks between services reliably |
-| **MongoDB** | Flexible filing cabinet — stores varied document shapes without rigid schemas |
-
-Adapt analogies to the specific use case in TapMind; do not copy generic definitions without context.
+- Use Mermaid diagrams whenever a process or flow is described
+- Keep diagrams focused on one flow or concept per diagram
+- Reference [Mermaid Diagrams](./appendix/mermaid-diagrams.md) for shared diagram patterns
 
 ---
 
-## File Naming and Ordering
+## Modularity
 
-- Use numbered prefixes for sequential reading: `01-`, `02-`, etc.
-- Use kebab-case for multi-word filenames: `02-System-Architecture.md`
-- Keep [README.md](../README.md) as the repository entry point and index.
+- One topic per page where possible
+- Link to related pages instead of duplicating content
+- Keep sections independently updatable
+
+---
+
+## File Naming and Structure
+
+- Use kebab-case for filenames: `high-level-architecture.md`
+- Group pages by GitBook section under `docs/`
+- Navigation is defined in [SUMMARY.md](../SUMMARY.md) at the repository root
+- [README.md](../README.md) is the repository entry point
 
 ---
 
 ## What Not to Do
 
-- Do not publish secrets, credentials, or environment-specific values.
-- Do not write implementation-only docs without business context.
-- Do not leave sections empty when publishing — placeholders are for draft structure only; replace before release.
+- Do not publish secrets, credentials, or environment-specific values
+- Do not lead with implementation details or internal jargon
+- Do not write documentation like internal engineering notes
+- Do not leave sections empty when publishing — placeholders are for structure only; replace before release
