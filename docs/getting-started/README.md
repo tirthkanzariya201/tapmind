@@ -29,7 +29,7 @@ No prior AdTech knowledge is required. Each page introduces concepts only when t
 |------|---------------------|
 | [How Mobile Ads Work](./how-mobile-ads-work.md) | How ads appear in mobile apps, told through a Cricbuzz example |
 | [Key AdTech Concepts](./key-adtech-concepts.md) | User, Publisher, Advertiser, and Demand Partner explained with examples |
-| [What is Mediation?](./what-is-mediation.md) | Why publishers need mediation when working with multiple ad sources |
+| [What is Mediation?](./what-is-mediation.md) | Why publishers use mediation to coordinate multiple ad sources |
 | [Where TapMind Fits In](./where-tapmind-fits-in.md) | TapMind's role in the advertising ecosystem |
 | [What is TapMind](./what-is-tapmind.md) | A complete platform introduction |
 | [Custom Adapter vs OrchSDK](./custom-adapter-vs-orchsdk.md) | How the two integration paths compare and when to use each |
