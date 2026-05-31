@@ -26,7 +26,7 @@ No prior AdTech knowledge is required. Each page introduces concepts only when t
 
 | Page | What you will learn |
 |------|---------------------|
-| [How Mobile Ads Work](./how-mobile-ads-work.md) | How ads appear in mobile apps, told as a real-world story |
+| [How Mobile Ads Work](./how-mobile-ads-work.md) | How ads appear in mobile apps, told through a Cricbuzz example |
 | [Key AdTech Concepts](./key-adtech-concepts.md) | Essential terminology introduced progressively |
 | [Where TapMind Fits In](./where-tapmind-fits-in.md) | TapMind's role in the advertising ecosystem |
 | [What is TapMind](./what-is-tapmind.md) | A complete platform introduction |
