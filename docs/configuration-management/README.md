@@ -26,7 +26,7 @@ Use this section when you need to understand how teams set up and manage apps, p
 
 **New user**
 
-[What is TapMind](../getting-started/what-is-tapmind.md) → [Dashboard Hierarchy](./dashboard-hierarchy.md) → [Placement Configuration](./placement-configuration.md)
+[How Mobile Ads Work](../getting-started/how-mobile-ads-work.md) → [Dashboard Hierarchy](./dashboard-hierarchy.md) → [Placement Configuration](./placement-configuration.md)
 
 **Developer**
 

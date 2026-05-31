@@ -1,48 +1,42 @@
 # [Page Title]
 
-> Placeholder page — content to be expanded. Copy this template when adding new pages.
+> Placeholder page. Copy this template when adding new content pages. See [DOCUMENTATION_RULES.md](./DOCUMENTATION_RULES.md) for full writing standards.
 
 ---
 
-## Overview
+## Real-World Example
 
-<!-- What this page covers at a glance -->
-
----
-
-## Why It Exists
-
-<!-- Rationale and context -->
+<!-- Start with a relatable scenario. Example: "When you open Cricbuzz and see an advertisement..." -->
 
 ---
 
-## Business Problem
+## Why This Matters
 
-<!-- The business problem this addresses -->
+<!-- What problem exists? Why should the reader care? -->
 
 ---
 
-## High Level Explanation
+## Concept Explanation
 
-<!-- Plain-language explanation before any implementation detail -->
+<!-- Explain relevant AdTech concepts in plain English. Introduce terms only when they become relevant. -->
 
 ```mermaid
-%% Placeholder diagram — to be added when content is written
+%% Add a diagram when a process or flow is described
 flowchart LR
     A[Placeholder] --> B[To be documented]
 ```
 
 ---
 
-## Technical Details
+## TapMind Implementation
 
-<!-- Implementation specifics — only after business understanding is established -->
+<!-- How TapMind addresses this problem at a high level. Where does TapMind fit? -->
 
 ---
 
-## Business Benefit
+## Technical Details
 
-<!-- Value to clients, stakeholders, and the business -->
+<!-- Implementation specifics. Only after business context is established. -->
 
 ---
 

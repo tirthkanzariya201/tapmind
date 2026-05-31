@@ -18,11 +18,11 @@ Whether you are a product manager, client stakeholder, support team member, or d
 
 ## Quick Start
 
-New to TapMind? Start with these three pages:
+New to TapMind? Follow the learning journey in order:
 
-1. [What is TapMind](./docs/getting-started/what-is-tapmind.md): Complete platform introduction in under 5 minutes
-2. [Business Problems We Solve](./docs/getting-started/business-problems-we-solve.md): Why TapMind exists
-3. [High Level Architecture](./docs/architecture/high-level-architecture.md): How the major components fit together
+1. [How Mobile Ads Work](./docs/getting-started/how-mobile-ads-work.md): How ads appear in mobile apps
+2. [Key AdTech Concepts](./docs/getting-started/key-adtech-concepts.md): Essential terminology, introduced progressively
+3. [Where TapMind Fits In](./docs/getting-started/where-tapmind-fits-in.md): TapMind's role in the ecosystem
 
 ---
 
@@ -30,7 +30,7 @@ New to TapMind? Start with these three pages:
 
 ### Getting Started
 
-Your entry point. Learn what TapMind is, the problems it solves, and how integration options compare.
+Your entry point. Follow the learning journey from how mobile ads work through AdTech concepts, TapMind's role, and integration options.
 
 [Go to Getting Started →](./docs/getting-started/README.md)
 
@@ -86,4 +86,4 @@ This documentation is written for:
 
 ## Contributing
 
-Documentation navigation is defined in [SUMMARY.md](./SUMMARY.md). Maintainers should read [Documentation Rules](./docs/DOCUMENTATION_RULES.md) and use [PAGE_TEMPLATE.md](./docs/PAGE_TEMPLATE.md) when adding new content pages.
+Documentation navigation is defined in [SUMMARY.md](./SUMMARY.md). Maintainers should read [Documentation Rules](./docs/DOCUMENTATION_RULES.md) for the full writing philosophy, then use [PAGE_TEMPLATE.md](./docs/PAGE_TEMPLATE.md) when adding new content pages.

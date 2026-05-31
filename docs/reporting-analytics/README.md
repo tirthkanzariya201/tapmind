@@ -28,7 +28,7 @@ Use this section when you need to understand how performance and revenue data fl
 
 **New user**
 
-[What is TapMind](../getting-started/what-is-tapmind.md) → [Event Lifecycle](./event-lifecycle.md) → [Reporting Architecture](./reporting-architecture.md)
+[How Mobile Ads Work](../getting-started/how-mobile-ads-work.md) → [Event Lifecycle](./event-lifecycle.md) → [Reporting Architecture](./reporting-architecture.md)
 
 **Developer**
 

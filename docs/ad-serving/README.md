@@ -27,7 +27,7 @@ Use this section when you need to understand how ads are served, not just how th
 
 **New user**
 
-[What is TapMind](../getting-started/what-is-tapmind.md) → [End-to-End Ad Journey](./end-to-end-ad-journey.md) → [Demand Partner Selection](./demand-partner-selection.md)
+[How Mobile Ads Work](../getting-started/how-mobile-ads-work.md) → [End-to-End Ad Journey](./end-to-end-ad-journey.md) → [Demand Partner Selection](./demand-partner-selection.md)
 
 **Developer**
 

@@ -27,7 +27,7 @@ Use this section when you need a fast lookup rather than a guided walkthrough.
 
 **New user**
 
-[What is TapMind](../getting-started/what-is-tapmind.md) → [Terminology & Glossary](./terminology-glossary.md) → [FAQ](./faq.md)
+[How Mobile Ads Work](../getting-started/how-mobile-ads-work.md) → [Terminology & Glossary](./terminology-glossary.md) → [FAQ](./faq.md)
 
 **Developer**
 

@@ -25,7 +25,7 @@ Use this section after Getting Started when you need to understand the big pictu
 
 **New user**
 
-[What is TapMind](../getting-started/what-is-tapmind.md) → [High Level Architecture](./high-level-architecture.md) → [Core Components](./core-components.md)
+[How Mobile Ads Work](../getting-started/how-mobile-ads-work.md) → [High Level Architecture](./high-level-architecture.md) → [Core Components](./core-components.md)
 
 **Developer**
 

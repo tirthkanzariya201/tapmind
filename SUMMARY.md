@@ -5,8 +5,10 @@
 # Getting Started
 
 * [Getting Started](docs/getting-started/README.md)
+  * [How Mobile Ads Work](docs/getting-started/how-mobile-ads-work.md)
+  * [Key AdTech Concepts](docs/getting-started/key-adtech-concepts.md)
+  * [Where TapMind Fits In](docs/getting-started/where-tapmind-fits-in.md)
   * [What is TapMind](docs/getting-started/what-is-tapmind.md)
-  * [Business Problems We Solve](docs/getting-started/business-problems-we-solve.md)
   * [Custom Adapter vs OrchSDK](docs/getting-started/custom-adapter-vs-orchsdk.md)
 
 # Architecture

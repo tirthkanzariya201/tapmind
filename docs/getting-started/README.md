@@ -2,9 +2,17 @@
 
 ## Section Overview
 
-This section is the best place to begin if you are new to TapMind. It explains what the platform is, the business problems it solves, and how integration options compare.
+This section follows the TapMind learning journey. Pages are ordered so you build context before encountering platform details or technical implementation.
 
-Read these pages first before diving into architecture, ad serving, or configuration details.
+**Recommended reading order:**
+
+[How Mobile Ads Work](./how-mobile-ads-work.md)
+→ [Key AdTech Concepts](./key-adtech-concepts.md)
+→ [Where TapMind Fits In](./where-tapmind-fits-in.md)
+→ [What is TapMind](./what-is-tapmind.md)
+→ [Custom Adapter vs OrchSDK](./custom-adapter-vs-orchsdk.md)
+
+No prior AdTech knowledge is required. Each page introduces concepts only when they become relevant.
 
 ## Who Should Read This Section
 
@@ -18,19 +26,21 @@ Read these pages first before diving into architecture, ad serving, or configura
 
 | Page | What you will learn |
 |------|---------------------|
-| [What is TapMind](./what-is-tapmind.md) | A complete platform introduction in under 5 minutes |
-| [Business Problems We Solve](./business-problems-we-solve.md) | Why TapMind exists and which problems it addresses |
+| [How Mobile Ads Work](./how-mobile-ads-work.md) | How ads appear in mobile apps, told as a real-world story |
+| [Key AdTech Concepts](./key-adtech-concepts.md) | Essential terminology introduced progressively |
+| [Where TapMind Fits In](./where-tapmind-fits-in.md) | TapMind's role in the advertising ecosystem |
+| [What is TapMind](./what-is-tapmind.md) | A complete platform introduction |
 | [Custom Adapter vs OrchSDK](./custom-adapter-vs-orchsdk.md) | How the two integration paths compare and when to use each |
 
 ## Suggested Reading Path
 
-**New user**
+**New user (full learning journey)**
 
-[What is TapMind](./what-is-tapmind.md) → [Business Problems We Solve](./business-problems-we-solve.md) → [High Level Architecture](../architecture/high-level-architecture.md)
+[How Mobile Ads Work](./how-mobile-ads-work.md) → [Key AdTech Concepts](./key-adtech-concepts.md) → [Where TapMind Fits In](./where-tapmind-fits-in.md) → [What is TapMind](./what-is-tapmind.md) → [High Level Architecture](../architecture/high-level-architecture.md)
 
 **Developer**
 
-[What is TapMind](./what-is-tapmind.md) → [End-to-End Ad Journey](../ad-serving/end-to-end-ad-journey.md) → [SDK Flow](../ad-serving/sdk-flow.md)
+[How Mobile Ads Work](./how-mobile-ads-work.md) → [What is TapMind](./what-is-tapmind.md) → [End-to-End Ad Journey](../ad-serving/end-to-end-ad-journey.md) → [SDK Flow](../ad-serving/sdk-flow.md)
 
 **Operations**
 
