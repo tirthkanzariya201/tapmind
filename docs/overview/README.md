@@ -10,6 +10,8 @@
 
 Start here to understand what TapMind is, the business problems it solves, and how integration options compare.
 
+**Start with:** [What is TapMind](./what-is-tapmind.md) for a complete introduction in under 5 minutes.
+
 ---
 
 ## Why It Exists
