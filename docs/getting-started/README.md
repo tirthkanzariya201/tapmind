@@ -31,7 +31,7 @@ No prior AdTech knowledge is required. Each page introduces concepts only when t
 | [Key AdTech Concepts](./key-adtech-concepts.md) | User, Publisher, Advertiser, and Demand Partner explained with examples |
 | [What is Mediation?](./what-is-mediation.md) | Why publishers use multiple sources and how mediation coordinates choice |
 | [Where TapMind Fits In](./where-tapmind-fits-in.md) | TapMind's role within mediation and the advertising ecosystem |
-| [What is TapMind](./what-is-tapmind.md) | A complete platform introduction |
+| [What is TapMind](./what-is-tapmind.md) | What TapMind does and why publishers use it |
 | [Custom Adapter vs OrchSDK](./custom-adapter-vs-orchsdk.md) | How the two integration paths compare and when to use each |
 
 ## Suggested Reading Path
