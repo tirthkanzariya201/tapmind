@@ -47,5 +47,5 @@
 ## Related Pages
 
 - [Monitoring & Troubleshooting](../operations/monitoring-troubleshooting.md)
-- [FAQ](../faq/faq.md)
+- [FAQ](./faq.md)
 - [API Examples](./api-examples.md)

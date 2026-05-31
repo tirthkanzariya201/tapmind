@@ -24,6 +24,7 @@ Full navigation is defined in [SUMMARY.md](./SUMMARY.md). Import this repository
 
 | Page | Purpose |
 |------|---------|
+| [Overview](./docs/overview/README.md) | Section landing page |
 | [What is TapMind](./docs/overview/what-is-tapmind.md) | Introduce the platform |
 | [Business Problems We Solve](./docs/overview/business-problems-we-solve.md) | Explain why TapMind exists |
 | [Custom Adapter vs OrchSDK](./docs/overview/custom-adapter-vs-orchsdk.md) | Explain the difference in simple terms |
@@ -32,6 +33,7 @@ Full navigation is defined in [SUMMARY.md](./SUMMARY.md). Import this repository
 
 | Page | Purpose |
 |------|---------|
+| [Architecture](./docs/architecture/README.md) | Section landing page |
 | [High Level Architecture](./docs/architecture/high-level-architecture.md) | Introduce all major components |
 | [Core Components](./docs/architecture/core-components.md) | Publisher App, Mediation, Custom Adapter, SDK, Backend, Demand Partners |
 | [Terminology & Glossary](./docs/architecture/terminology-glossary.md) | Simple language definitions |
@@ -40,6 +42,7 @@ Full navigation is defined in [SUMMARY.md](./SUMMARY.md). Import this repository
 
 | Page | Purpose |
 |------|---------|
+| [Ad Serving](./docs/ad-serving/README.md) | Section landing page |
 | [End-to-End Ad Journey](./docs/ad-serving/end-to-end-ad-journey.md) | Single high-level flow from ad request to ad display |
 | [SDK Flow](./docs/ad-serving/sdk-flow.md) | How the SDK participates |
 | [Backend Serving Flow](./docs/ad-serving/backend-serving-flow.md) | How the backend returns configuration |
@@ -49,6 +52,7 @@ Full navigation is defined in [SUMMARY.md](./SUMMARY.md). Import this repository
 
 | Page | Purpose |
 |------|---------|
+| [Reporting & Analytics](./docs/reporting-analytics/README.md) | Section landing page |
 | [Event Lifecycle](./docs/reporting-analytics/event-lifecycle.md) | Explain event generation |
 | [Reporting Architecture](./docs/reporting-analytics/reporting-architecture.md) | Explain the reporting pipeline |
 | [Why RabbitMQ](./docs/reporting-analytics/why-rabbitmq.md) | Business explanation first |
@@ -59,6 +63,7 @@ Full navigation is defined in [SUMMARY.md](./SUMMARY.md). Import this repository
 
 | Page | Purpose |
 |------|---------|
+| [Configuration Management](./docs/configuration-management/README.md) | Section landing page |
 | [Dashboard Hierarchy](./docs/configuration-management/dashboard-hierarchy.md) | Supply Partner → Publisher → App → Version → Placement → Demand Partner |
 | [Placement Configuration](./docs/configuration-management/placement-configuration.md) | Explain placement setup |
 | [Demand Partner Configuration](./docs/configuration-management/demand-partner-configuration.md) | Ad Unit IDs, Priority, Sizes, TTL |
@@ -67,22 +72,18 @@ Full navigation is defined in [SUMMARY.md](./SUMMARY.md). Import this repository
 
 | Page | Purpose |
 |------|---------|
+| [Operations](./docs/operations/README.md) | Section landing page |
 | [G-Sheet Automation](./docs/operations/g-sheet-automation.md) | Explain operations workflow |
 | [Monitoring & Troubleshooting](./docs/operations/monitoring-troubleshooting.md) | Support team reference |
 
-### FAQ
+### Reference
 
 | Page | Purpose |
 |------|---------|
-| [FAQ](./docs/faq/faq.md) | Questions from clients, PMs, and support teams |
-
-### Appendix
-
-| Page | Purpose |
-|------|---------|
-| [API Examples](./docs/appendix/api-examples.md) | Reference API examples |
-| [Error Codes](./docs/appendix/error-codes.md) | Error code reference |
-| [Mermaid Diagrams](./docs/appendix/mermaid-diagrams.md) | Shared diagram patterns |
+| [Reference](./docs/reference/README.md) | Section landing page |
+| [FAQ](./docs/reference/faq.md) | Questions from clients, PMs, and support teams |
+| [API Examples](./docs/reference/api-examples.md) | Reference API examples |
+| [Error Codes](./docs/reference/error-codes.md) | Error code reference |
 
 ---
 
@@ -114,18 +115,18 @@ Copy [PAGE_TEMPLATE.md](./docs/PAGE_TEMPLATE.md) when adding new pages. See [Doc
 
 ```
 Tapmind/
-├── README.md                 # This file — repository entry point
-├── SUMMARY.md                # GitBook table of contents
+├── README.md                 # Repository entry point
+├── SUMMARY.md                # GitBook grouped navigation
 ├── .gitignore
 └── docs/
-    ├── DOCUMENTATION_RULES.md
+    ├── DOCUMENTATION_RULES.md   # Maintainer-only (not in GitBook nav)
     ├── PAGE_TEMPLATE.md
-    ├── overview/
+    ├── overview/                # README.md + pages
     ├── architecture/
     ├── ad-serving/
     ├── reporting-analytics/
     ├── configuration-management/
     ├── operations/
-    ├── faq/
-    └── appendix/
+    ├── reference/
+    └── appendix/                # Maintainer resources (e.g. Mermaid patterns)
 ```

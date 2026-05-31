@@ -54,5 +54,5 @@ flowchart TD
 
 - [End-to-End Ad Journey](../ad-serving/end-to-end-ad-journey.md)
 - [Event Lifecycle](../reporting-analytics/event-lifecycle.md)
-- [Error Codes](../appendix/error-codes.md)
-- [FAQ](../faq/faq.md)
+- [Error Codes](../reference/error-codes.md)
+- [FAQ](../reference/faq.md)
