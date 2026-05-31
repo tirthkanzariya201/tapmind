@@ -1,48 +1,36 @@
 # Operations
 
-> Section landing page — introduces the Operations group.
+## Section Overview
 
----
+This section covers day-to-day operational workflows for TapMind. It includes G-Sheet automation for configuration updates and monitoring guidance for support teams.
 
-## Overview
+Use this section when you need to run, maintain, or troubleshoot the platform in production.
 
-<!-- What this section covers at a glance -->
+## Who Should Read This Section
 
-Operational workflows for TapMind, including G-Sheet automation and monitoring for support teams.
+- **Product Managers** understanding operational constraints and workflows
+- **Project Managers** coordinating ops-related tasks
+- **Client Stakeholders** who interact with operations teams
+- **Support Teams** as a primary reference for troubleshooting
+- **Developers** investigating production issues or automation integrations
 
----
+## Pages In This Section
 
-## Why It Exists
+| Page | What you will learn |
+|------|---------------------|
+| [G-Sheet Automation](./g-sheet-automation.md) | How Google Sheets automation supports configuration workflows |
+| [Monitoring & Troubleshooting](./monitoring-troubleshooting.md) | What to monitor and how to triage common issues |
 
-<!-- Why this section is grouped in the knowledge base -->
+## Suggested Reading Path
 
----
+**New user**
 
-## Business Problem
+[What is TapMind](../getting-started/what-is-tapmind.md) → [Dashboard Hierarchy](../configuration-management/dashboard-hierarchy.md) → [G-Sheet Automation](./g-sheet-automation.md)
 
-<!-- The business questions this section answers -->
+**Developer**
 
----
+[Monitoring & Troubleshooting](./monitoring-troubleshooting.md) → [Error Codes](../reference/error-codes.md) → [Backend Serving Flow](../ad-serving/backend-serving-flow.md)
 
-## High Level Explanation
+**Operations**
 
-<!-- How to navigate this section -->
-
----
-
-## Technical Details
-
-<!-- Reserved for section-level context when content is written -->
-
----
-
-## Business Benefit
-
-<!-- Value of reliable day-to-day operations -->
-
----
-
-## Related Pages
-
-- [G-Sheet Automation](./g-sheet-automation.md)
-- [Monitoring & Troubleshooting](./monitoring-troubleshooting.md)
+[What is TapMind](../getting-started/what-is-tapmind.md) → [Dashboard Hierarchy](../configuration-management/dashboard-hierarchy.md) → [G-Sheet Automation](./g-sheet-automation.md) → [Monitoring & Troubleshooting](./monitoring-troubleshooting.md)

@@ -1,20 +1,19 @@
 # Table of contents
 
-* [TapMind Documentation](README.md)
+* [TapMind Platform Documentation](README.md)
 
-# Overview
+# Getting Started
 
-* [Overview](docs/overview/README.md)
-  * [What is TapMind](docs/overview/what-is-tapmind.md)
-  * [Business Problems We Solve](docs/overview/business-problems-we-solve.md)
-  * [Custom Adapter vs OrchSDK](docs/overview/custom-adapter-vs-orchsdk.md)
+* [Getting Started](docs/getting-started/README.md)
+  * [What is TapMind](docs/getting-started/what-is-tapmind.md)
+  * [Business Problems We Solve](docs/getting-started/business-problems-we-solve.md)
+  * [Custom Adapter vs OrchSDK](docs/getting-started/custom-adapter-vs-orchsdk.md)
 
 # Architecture
 
 * [Architecture](docs/architecture/README.md)
   * [High Level Architecture](docs/architecture/high-level-architecture.md)
   * [Core Components](docs/architecture/core-components.md)
-  * [Terminology & Glossary](docs/architecture/terminology-glossary.md)
 
 # Ad Serving
 
@@ -49,6 +48,7 @@
 # Reference
 
 * [Reference](docs/reference/README.md)
+  * [Terminology & Glossary](docs/reference/terminology-glossary.md)
   * [FAQ](docs/reference/faq.md)
   * [API Examples](docs/reference/api-examples.md)
   * [Error Codes](docs/reference/error-codes.md)

@@ -55,5 +55,5 @@ sequenceDiagram
 ## Related Pages
 
 - [End-to-End Ad Journey](./end-to-end-ad-journey.md)
-- [Custom Adapter vs OrchSDK](../overview/custom-adapter-vs-orchsdk.md)
+- [Custom Adapter vs OrchSDK](../getting-started/custom-adapter-vs-orchsdk.md)
 - [Backend Serving Flow](./backend-serving-flow.md)

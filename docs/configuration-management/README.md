@@ -1,49 +1,37 @@
 # Configuration Management
 
-> Section landing page — introduces the Configuration Management group.
+## Section Overview
 
----
+This section explains how TapMind is configured through the dashboard. It covers the configuration hierarchy, placement setup, and demand partner settings.
 
-## Overview
+Use this section when you need to understand how teams set up and manage apps, placements, and partners.
 
-<!-- What this section covers at a glance -->
+## Who Should Read This Section
 
-Configure TapMind from the dashboard hierarchy through placements and demand partner settings.
+- **Product Managers** defining configuration strategy and placement rules
+- **Project Managers** coordinating setup and rollout
+- **Client Stakeholders** reviewing how their apps are configured
+- **Support Teams** helping clients with placement or partner setup
+- **Developers** mapping dashboard settings to runtime behavior
 
----
+## Pages In This Section
 
-## Why It Exists
+| Page | What you will learn |
+|------|---------------------|
+| [Dashboard Hierarchy](./dashboard-hierarchy.md) | Supply Partner → Publisher → App → Version → Placement → Demand Partner |
+| [Placement Configuration](./placement-configuration.md) | How placements are defined and managed |
+| [Demand Partner Configuration](./demand-partner-configuration.md) | Ad Unit IDs, Priority, Sizes, and TTL settings |
 
-<!-- Why this section is grouped in the knowledge base -->
+## Suggested Reading Path
 
----
+**New user**
 
-## Business Problem
+[What is TapMind](../getting-started/what-is-tapmind.md) → [Dashboard Hierarchy](./dashboard-hierarchy.md) → [Placement Configuration](./placement-configuration.md)
 
-<!-- The business questions this section answers -->
+**Developer**
 
----
+[Dashboard Hierarchy](./dashboard-hierarchy.md) → [Backend Serving Flow](../ad-serving/backend-serving-flow.md) → [Demand Partner Configuration](./demand-partner-configuration.md)
 
-## High Level Explanation
+**Operations**
 
-<!-- How to navigate this section -->
-
----
-
-## Technical Details
-
-<!-- Reserved for section-level context when content is written -->
-
----
-
-## Business Benefit
-
-<!-- Value of correct, scalable configuration -->
-
----
-
-## Related Pages
-
-- [Dashboard Hierarchy](./dashboard-hierarchy.md)
-- [Placement Configuration](./placement-configuration.md)
-- [Demand Partner Configuration](./demand-partner-configuration.md)
+[What is TapMind](../getting-started/what-is-tapmind.md) → [Dashboard Hierarchy](./dashboard-hierarchy.md) → [G-Sheet Automation](../operations/g-sheet-automation.md)

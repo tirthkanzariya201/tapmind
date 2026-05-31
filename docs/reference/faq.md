@@ -62,7 +62,7 @@
 
 ## Related Pages
 
-- [What is TapMind](../overview/what-is-tapmind.md)
-- [Business Problems We Solve](../overview/business-problems-we-solve.md)
+- [What is TapMind](../getting-started/what-is-tapmind.md)
+- [Business Problems We Solve](../getting-started/business-problems-we-solve.md)
 - [Monitoring & Troubleshooting](../operations/monitoring-troubleshooting.md)
-- [Terminology & Glossary](../architecture/terminology-glossary.md)
+- [Terminology & Glossary](./terminology-glossary.md)

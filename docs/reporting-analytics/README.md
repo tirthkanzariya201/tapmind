@@ -1,51 +1,39 @@
 # Reporting & Analytics
 
-> Section landing page — introduces the Reporting & Analytics group.
+## Section Overview
 
----
+This section explains how TapMind captures events, processes data, and delivers reporting. It covers the event lifecycle, reporting architecture, and the role of key data infrastructure.
 
-## Overview
+Use this section when you need to understand how performance and revenue data flows through the platform.
 
-<!-- What this section covers at a glance -->
+## Who Should Read This Section
 
-Learn how events are generated, how the reporting pipeline works, and why TapMind uses RabbitMQ, MongoDB, and PostgreSQL.
+- **Product Managers** evaluating reporting capabilities for clients
+- **Project Managers** tracking reporting-related milestones
+- **Client Stakeholders** who rely on revenue and performance data
+- **Support Teams** investigating reporting delays or data discrepancies
+- **Developers** working on event pipelines or data integrations
 
----
+## Pages In This Section
 
-## Why It Exists
+| Page | What you will learn |
+|------|---------------------|
+| [Event Lifecycle](./event-lifecycle.md) | How events are generated, transmitted, and stored |
+| [Reporting Architecture](./reporting-architecture.md) | How the reporting pipeline is structured end to end |
+| [Why RabbitMQ](./why-rabbitmq.md) | Why TapMind uses a message queue for event processing |
+| [Why MongoDB](./why-mongodb.md) | Why TapMind uses document storage for event data |
+| [Why PostgreSQL](./why-postgresql.md) | Why TapMind uses relational storage for structured data |
 
-<!-- Why this section is grouped in the knowledge base -->
+## Suggested Reading Path
 
----
+**New user**
 
-## Business Problem
+[What is TapMind](../getting-started/what-is-tapmind.md) → [Event Lifecycle](./event-lifecycle.md) → [Reporting Architecture](./reporting-architecture.md)
 
-<!-- The business questions this section answers -->
+**Developer**
 
----
+[Event Lifecycle](./event-lifecycle.md) → [Reporting Architecture](./reporting-architecture.md) → [Why RabbitMQ](./why-rabbitmq.md)
 
-## High Level Explanation
+**Operations**
 
-<!-- How to navigate this section -->
-
----
-
-## Technical Details
-
-<!-- Reserved for section-level context when content is written -->
-
----
-
-## Business Benefit
-
-<!-- Value of trustworthy reporting and analytics -->
-
----
-
-## Related Pages
-
-- [Event Lifecycle](./event-lifecycle.md)
-- [Reporting Architecture](./reporting-architecture.md)
-- [Why RabbitMQ](./why-rabbitmq.md)
-- [Why MongoDB](./why-mongodb.md)
-- [Why PostgreSQL](./why-postgresql.md)
+[Reporting Architecture](./reporting-architecture.md) → [Monitoring & Troubleshooting](../operations/monitoring-troubleshooting.md) → [FAQ](../reference/faq.md)

@@ -1,50 +1,38 @@
 # Ad Serving
 
-> Section landing page — introduces the Ad Serving group.
+## Section Overview
 
----
+This section walks through how ads move from request to display in TapMind. It covers the full ad journey, SDK participation, backend configuration delivery, and demand partner selection.
 
-## Overview
+Use this section when you need to understand how ads are served, not just how the platform is configured.
 
-<!-- What this section covers at a glance -->
+## Who Should Read This Section
 
-Follow the ad lifecycle from request to display, including SDK participation, backend configuration, and demand partner selection.
+- **Product Managers** defining ad placement strategy and partner ordering
+- **Project Managers** coordinating serving-related deliverables
+- **Client Stakeholders** who want to understand the ad lifecycle
+- **Support Teams** investigating fill, serving, or display issues
+- **Developers** integrating or debugging ad request flows
 
----
+## Pages In This Section
 
-## Why It Exists
+| Page | What you will learn |
+|------|---------------------|
+| [End-to-End Ad Journey](./end-to-end-ad-journey.md) | The full flow from ad request to ad display |
+| [SDK Flow](./sdk-flow.md) | How the SDK participates in serving |
+| [Backend Serving Flow](./backend-serving-flow.md) | How the backend returns configuration to the app |
+| [Demand Partner Selection](./demand-partner-selection.md) | How priorities and waterfalls determine which partner serves |
 
-<!-- Why this section is grouped in the knowledge base -->
+## Suggested Reading Path
 
----
+**New user**
 
-## Business Problem
+[What is TapMind](../getting-started/what-is-tapmind.md) → [End-to-End Ad Journey](./end-to-end-ad-journey.md) → [Demand Partner Selection](./demand-partner-selection.md)
 
-<!-- The business questions this section answers -->
+**Developer**
 
----
+[What is TapMind](../getting-started/what-is-tapmind.md) → [End-to-End Ad Journey](./end-to-end-ad-journey.md) → [SDK Flow](./sdk-flow.md) → [Backend Serving Flow](./backend-serving-flow.md)
 
-## High Level Explanation
+**Operations**
 
-<!-- How to navigate this section -->
-
----
-
-## Technical Details
-
-<!-- Reserved for section-level context when content is written -->
-
----
-
-## Business Benefit
-
-<!-- Value of understanding the ad serving flow -->
-
----
-
-## Related Pages
-
-- [End-to-End Ad Journey](./end-to-end-ad-journey.md)
-- [SDK Flow](./sdk-flow.md)
-- [Backend Serving Flow](./backend-serving-flow.md)
-- [Demand Partner Selection](./demand-partner-selection.md)
+[End-to-End Ad Journey](./end-to-end-ad-journey.md) → [Demand Partner Selection](./demand-partner-selection.md) → [Demand Partner Configuration](../configuration-management/demand-partner-configuration.md)

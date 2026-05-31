@@ -60,5 +60,5 @@ flowchart LR
 ## Related Pages
 
 - [High Level Architecture](./high-level-architecture.md)
-- [Terminology & Glossary](./terminology-glossary.md)
-- [Custom Adapter vs OrchSDK](../overview/custom-adapter-vs-orchsdk.md)
+- [Terminology & Glossary](../reference/terminology-glossary.md)
+- [Custom Adapter vs OrchSDK](../getting-started/custom-adapter-vs-orchsdk.md)

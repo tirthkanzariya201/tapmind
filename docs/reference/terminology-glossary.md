@@ -46,6 +46,6 @@
 
 ## Related Pages
 
-- [What is TapMind](../overview/what-is-tapmind.md)
-- [Core Components](./core-components.md)
+- [What is TapMind](../getting-started/what-is-tapmind.md)
+- [Core Components](../architecture/core-components.md)
 - [Dashboard Hierarchy](../configuration-management/dashboard-hierarchy.md)

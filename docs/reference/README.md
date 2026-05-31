@@ -1,49 +1,38 @@
 # Reference
 
-> Section landing page — introduces the Reference group.
+## Section Overview
 
----
+This section provides quick-reference material for TapMind. It includes terminology definitions, frequently asked questions, API examples, and error codes.
 
-## Overview
+Use this section when you need a fast lookup rather than a guided walkthrough.
 
-<!-- What this section covers at a glance -->
+## Who Should Read This Section
 
-Quick-reference material for frequently asked questions, API examples, and error codes.
+- **Product Managers** clarifying terms in client conversations
+- **Project Managers** resolving terminology questions across teams
+- **Client Stakeholders** looking up common terms and answers
+- **Support Teams** as a daily reference for FAQs and error codes
+- **Developers** checking API examples and error code meanings
 
----
+## Pages In This Section
 
-## Why It Exists
+| Page | What you will learn |
+|------|---------------------|
+| [Terminology & Glossary](./terminology-glossary.md) | Plain-language definitions of TapMind terms |
+| [FAQ](./faq.md) | Answers to common questions from clients, PMs, and support |
+| [API Examples](./api-examples.md) | Sample API requests and responses |
+| [Error Codes](./error-codes.md) | Error code meanings and suggested actions |
 
-<!-- Why this section is grouped in the knowledge base -->
+## Suggested Reading Path
 
----
+**New user**
 
-## Business Problem
+[What is TapMind](../getting-started/what-is-tapmind.md) → [Terminology & Glossary](./terminology-glossary.md) → [FAQ](./faq.md)
 
-<!-- The business questions this section answers -->
+**Developer**
 
----
+[API Examples](./api-examples.md) → [Error Codes](./error-codes.md) → [SDK Flow](../ad-serving/sdk-flow.md)
 
-## High Level Explanation
+**Support**
 
-<!-- How to navigate this section -->
-
----
-
-## Technical Details
-
-<!-- Reserved for section-level context when content is written -->
-
----
-
-## Business Benefit
-
-<!-- Value of self-service reference material -->
-
----
-
-## Related Pages
-
-- [FAQ](./faq.md)
-- [API Examples](./api-examples.md)
-- [Error Codes](./error-codes.md)
+[FAQ](./faq.md) → [Error Codes](./error-codes.md) → [Monitoring & Troubleshooting](../operations/monitoring-troubleshooting.md)

@@ -54,4 +54,4 @@ flowchart TD
 
 - [Placement Configuration](./placement-configuration.md)
 - [Demand Partner Configuration](./demand-partner-configuration.md)
-- [Terminology & Glossary](../architecture/terminology-glossary.md)
+- [Terminology & Glossary](../reference/terminology-glossary.md)
