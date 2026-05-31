@@ -1,132 +1,148 @@
 # What is Mediation?
 
-You already know the four participants in mobile advertising and where ads come from. This page addresses the next challenge: **what happens when a publisher works with more than one advertising source?**
+You already understand how ads appear in apps and who participates in mobile advertising. This page answers one business question:
+
+**Why do publishers work with multiple advertising sources, and how do they choose between them?**
+
+The answer to that question is where mediation comes from.
 
 ---
 
-## Real-World Example
+## Real World Example
 
-You are still using **Cricbuzz**. You scroll to a banner placement and an ad appears.
+You open **Cricbuzz** and scroll to a banner placement below the live score.
 
-On the previous page, we explained that a demand partner delivers the ad when Cricbuzz sends an ad request. But Cricbuzz does not work with just one demand partner. Like most large publishers, it connects to **multiple advertising sources**.
+Cricbuzz has an open ad slot. When you reach that placement, the app sends an ad request. Several advertising sources could each provide a different advertisement for that same slot.
 
-One source might specialize in sports brands. Another might reach a broader consumer audience. A third might offer strong fill rates in certain regions.
+But only **one** ad can appear on your screen.
 
-When you reach that banner placement, Cricbuzz sends a single ad request. Multiple sources could potentially fill it. That raises an important question:
+So how does Cricbuzz choose?
 
-**If multiple demand partners can provide ads, how does the publisher decide which one gets the opportunity to serve an ad?**
+Does it always use the same source? Does it pick at random? Does it try one source and switch to another if nothing is available?
 
-This is the problem mediation solves.
+Before we name the system that handles this, sit with the question. A popular app like Cricbuzz cannot afford empty ad slots. It also cannot afford to leave money on the table by always using the same source without comparing options.
+
+Something must decide which advertising source gets the opportunity to fill that placement. That decision matters every time a user opens the app.
 
 ---
 
 ## Why This Matters
 
-Relying on a single advertising source is risky. If that source has no ad available at a given moment, the placement stays empty. Empty placements mean lost revenue.
+A publisher working with **only one** advertising source faces a ceiling.
 
-Working with multiple sources improves the odds that an ad will appear. But multiple sources also create a coordination problem. Someone must decide the order of opportunity, track which source fills the slot, and make sure the process runs smoothly every time.
+If that source has no ad ready, the placement stays empty. If it consistently underperforms, the publisher has no alternative. If market conditions change, the publisher is locked into a single relationship.
 
-If you work in product, project management, client relations, support, or development, you will hear the word **mediation** often. Understanding it in plain language explains why publishers structure their ad setup the way they do.
+Most serious publishers avoid that trap. They work with **multiple advertising sources** because different sources perform differently across placements, regions, and times of day.
 
----
+Publishers want:
 
-## Concept Explanation
+- **Higher revenue** from the best available opportunity
+- **Better fill rate** so empty ad slots are rare
+- **More competition** so no single source controls outcomes
 
-### Why publishers use multiple advertising sources
+That strategy creates a new business problem:
 
-Publishers connect to multiple demand partners for practical business reasons:
+**How should the publisher choose between advertising sources when more than one could fill the same placement?**
 
-- **Better fill rate:** If one source has no ad ready, another might.
-- **Broader advertiser access:** Different partners reach different advertisers and industries.
-- **Revenue optimization:** Publishers want the best earning opportunity for each placement, not just the first available option.
-- **Reduced dependency:** Relying on one partner creates risk if that partner underperforms or has technical issues.
-
-For Cricbuzz, using multiple sources means a cricket fan in one country might see a different campaign than a fan in another, while both see an ad instead of a blank space.
-
-### The problem mediation solves
-
-Without mediation, the publisher's app would need to manage every demand partner relationship directly. For each ad request, it would need rules for which source to ask first, what to do if that source has nothing, and how to try the next source.
-
-That logic becomes complex quickly. More partners means more rules, more failure scenarios, and more manual maintenance.
-
-**Mediation exists to handle this coordination centrally.**
-
-### What mediation is
-
-**Mediation** is the process (and often the platform) that manages multiple advertising sources for a publisher.
-
-When an ad request is sent, mediation applies the publisher's rules to decide which demand partner gets the first opportunity to fill the slot. If that partner cannot fill it, mediation moves to the next source according to the configured order.
-
-Think of mediation as a **restaurant manager coordinating suppliers**.
-
-The kitchen needs an ingredient right now. The manager does not call every supplier at random. They follow a known order: try the primary supplier first, then the backup, then the specialty vendor. The goal is to fill the order quickly and at the best value. Mediation does the same for ad placements.
-
-### What role mediation plays
-
-Mediation sits between the publisher's app and its demand partners. Its role includes:
-
-- **Managing partner relationships** so the app deals with one coordination layer instead of many separate connections
-- **Applying publisher rules** about which source gets priority for each placement
-- **Maximizing fill rate** by trying additional sources when the first cannot deliver an ad
-- **Supporting revenue goals** by giving preferred sources the first opportunity while keeping backups available
-
-Mediation does not create ads. It orchestrates which demand partner gets a chance to respond to each ad request.
-
-### How mediation helps publishers
-
-For a publisher like Cricbuzz, mediation means:
-
-- Fewer empty ad slots when users open the app
-- Less manual work managing partner order and fallback logic
-- Flexibility to add, remove, or reprioritize sources without rebuilding the app
-- A clearer view of which sources perform well over time
-
-Mediation turns a messy many-to-one problem into a managed workflow the operations team can control.
-
-### TapMind in context
-
-TapMind can act as **one advertising source** that participates in a publisher's mediation setup. It is not mediation itself. It is a demand-side option that mediation can route ad requests to, alongside other partners.
-
-The details of how TapMind connects to mediation are covered later. For now, remember: publishers use mediation to coordinate sources, and TapMind can be one of those sources.
+Every product manager, operations lead, support agent, and developer touching ad monetization eventually encounters this question. The answer is not technical at first. It is about business incentives and coordination.
 
 ---
 
-## Mermaid Diagram
+## Follow The Money
 
-A simplified view of mediation coordinating multiple sources:
+To understand why this problem exists, follow the money.
+
+```mermaid
+flowchart LR
+    A[Advertiser] -->|Pays for ad exposure| B[Demand Partner]
+    B -->|Shares revenue| C[Mediation]
+    C -->|Publisher earns| D[Publisher]
+```
+
+Here is the simplified flow:
+
+1. An **advertiser** pays to show an ad to app users.
+2. A **demand partner** connects that advertiser's campaign to publisher apps and earns a share of the spend.
+3. **Mediation** sits in the coordination layer, managing which demand partner gets an opportunity when a placement opens.
+4. The **publisher** earns revenue when an ad is successfully shown.
+
+Why does this matter for choosing between sources?
+
+Because **each advertising source represents a different path for advertiser money to reach the publisher**. One source might connect Cricbuzz to sports brands paying premium rates. Another might fill slots reliably but at lower rates. A third might excel in certain regions.
+
+If multiple sources can provide an advertisement, publishers generally want the source that creates the **best outcome**: strong revenue, reliable fill, and healthy competition.
+
+When sources compete for the same ad opportunity, publishers benefit. No single source can take the relationship for granted. The publisher gains leverage, backup options, and better overall performance.
+
+That business reality drives everything that follows. Publishers do not add multiple sources for complexity's sake. They add them because **money follows the best available path**, and they need a fair way to decide which path to try first.
+
+---
+
+## What Is Mediation?
+
+Only now does the term make sense.
+
+**Mediation** helps publishers work with multiple advertising sources and maximize revenue by deciding which source gets an opportunity to provide an advertisement.
+
+Mediation exists because publishers want multiple sources **competing for the same ad opportunity**. Without a coordination layer, the publisher's team would manually manage rules for every placement, every partner, and every fallback scenario.
+
+Mediation handles that coordination. When an ad request is sent, mediation applies the publisher's business rules to decide which source gets the first chance. If that source cannot deliver, mediation moves to the next option.
+
+Mediation is not an ad. It is not a demand partner. It is the **business layer that manages choice** between sources so publishers can earn more and fill more placements.
+
+TapMind can participate as **one advertising source** within this setup. It is not mediation itself. We will explore TapMind's role on the next page.
+
+---
+
+## Simple Analogy
+
+Think of a **travel website comparing airlines** for the same route.
+
+You enter your destination and travel dates. Multiple airlines can fly you there. The website does not pick randomly. It compares options based on price, availability, and timing. It shows you the best path forward, with alternatives if your first choice is unavailable.
+
+The travel website is not an airline. It coordinates airlines on your behalf so you get the best outcome.
+
+Mediation works the same way for publishers. The ad request is the trip. The advertising sources are the airlines. Mediation compares and coordinates so the publisher gets the best available result for each placement.
+
+---
+
+## High-Level Diagram
+
+A business view of how mediation coordinates multiple sources for one placement:
 
 ```mermaid
 flowchart TD
-    A[User reaches placement] --> B[Publisher sends ad request]
-    B --> C[Mediation]
-    C --> D[Demand Partner 1]
-    C --> E[Demand Partner 2]
-    C --> F[Demand Partner 3]
-    D -->|Ad delivered| G[Ad displayed to user]
-    E -->|If needed| G
-    F -->|If needed| G
+    A[Publisher App] --> B[Mediation]
+    B --> C[Source A]
+    B --> D[Source B]
+    B --> E[Source C]
+    C --> F[One ad displayed to user]
+    D --> F
+    E --> F
 ```
 
-Mediation receives the request and manages which demand partner gets an opportunity to fill it. The user sees one ad. Behind the scenes, mediation coordinated the sources.
+One placement. One ad request. Multiple possible sources. Mediation manages the choice. The user sees a single ad.
 
 ---
 
 ## Key Takeaways
 
-- Publishers work with **multiple demand partners** to improve fill rate, reach more advertisers, and reduce dependency on a single source.
-- **Mediation** coordinates those partners when an ad request is sent.
-- The core problem mediation solves: deciding **which source gets the opportunity to serve an ad** when several could.
-- Mediation helps publishers **maximize fill rate and revenue** while keeping partner management practical.
-- **TapMind** can participate as one advertising source within a publisher's mediation setup, not as the mediation layer itself.
+- Publishers use **multiple advertising sources** to increase revenue, improve fill rate, and avoid dependency on one partner.
+- **Competition between sources** gives publishers better outcomes and more control.
+- **Mediation exists** because publishers need a coordinated way to choose which source gets an opportunity for each ad placement.
+- **Follow the money:** advertiser spend flows through demand partners and mediation to the publisher. Better coordination means better business results.
+- Mediation is a **business coordination layer**, not an ad and not a single advertising source.
 
-You now understand why mediation exists and what role it plays.
+You now understand why mediation exists before learning how any specific platform implements it.
 
 ---
 
 ## Next Step
 
-You know how ads work, who the participants are, and why mediation coordinates multiple sources. The natural next question is: **where does TapMind fit into this picture?**
+We now understand why mediation exists.
 
-TapMind is more than a single demand partner. It is a platform that helps publishers manage configuration, serving, and partner relationships. Before learning platform details, it helps to see exactly where TapMind sits relative to mediation, publishers, and demand partners.
+But where does TapMind fit into this ecosystem?
 
-Continue to **[Where TapMind Fits In](./where-tapmind-fits-in.md)** to understand TapMind's place in the ecosystem you have built so far.
+In the next section, we will see how TapMind participates within a mediation setup and helps publishers manage advertising demand.
+
+Continue to **[Where TapMind Fits In](./where-tapmind-fits-in.md)**.
