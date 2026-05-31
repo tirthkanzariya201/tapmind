@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs and diagnostics
+*.log
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+
+# GitBook / static site build output
+_book/
+.grunt/
+node_modules/
+
+# Cache and temp files
+.cache/
+*.tmp
+*.bak
